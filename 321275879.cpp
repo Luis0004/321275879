@@ -7,6 +7,6 @@ int main()
 	scanf_s("%f", &base);
 	printf("altura:");
 	scanf_s("%f", &altura);
-	area = ((base * altura) / 2.0);
+	area = base * altura;
 	printf("El area es de: %f", area);
 }
