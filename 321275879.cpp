@@ -2,11 +2,9 @@
 
 int main()
 {
-	float base, altura, area;
-	printf("base: ");
-	scanf_s("%f", &base);
-	printf("altura:");
-	scanf_s("%f", &altura);
-	area = base * altura;
+	float radio, area;
+	printf("radio: ");
+	scanf_s("%f", &radio);
+	area = 3.1416 * radio * radio;
 	printf("El area es de: %f", area);
 }
